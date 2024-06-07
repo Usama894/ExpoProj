@@ -56,22 +56,16 @@ export default function App() {
         </View>
 
         <View style={styles.calculatorsContainer}>
-  <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
-    <TouchableOpacity style={styles.calculatorItem}>
-      <Text style={styles.calculatorText}>Zakat</Text>
-    </TouchableOpacity>
-    <TouchableOpacity style={styles.calculatorItem}>
-      <Text style={styles.calculatorText}>Fidya</Text>
-    </TouchableOpacity>
-    <TouchableOpacity style={styles.calculatorItem}>
-      <Text style={styles.calculatorText}>Kaffarah</Text>
-    </TouchableOpacity>
-    <TouchableOpacity style={styles.calculatorItem}>
-      <Text style={styles.calculatorText}>Kaffarah</Text>
-    </TouchableOpacity>
-  </ScrollView>
-</View>
-
+          <TouchableOpacity style={styles.calculatorItem}>
+            <Text style={styles.calculatorText}>Zakat</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.calculatorItem}>
+            <Text style={styles.calculatorText}>Fidya</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.calculatorItem}>
+            <Text style={styles.calculatorText}>Kaffarah</Text>
+          </TouchableOpacity>
+        </View>
 
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Emergency Response</Text>
